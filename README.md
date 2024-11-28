@@ -1,1 +1,1 @@
-# singularis
+# singulariss
