@@ -1,0 +1,287 @@
+@import url('./reset.meyer.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('./formLogin.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbarcadastro{
+    background-color: white;
+    margin-top: -80px;
+}
+.corpo {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #8fbfec;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+    position: relative;
+    width: 100px;
+    height: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.logo{
+    display: flex;
+    width: 10%;
+}
+
+.navbar-brand logo{
+    display: flex;
+    align-items: center;
+    margin: 0;    
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 5px;
+    padding: 12px;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.relatorios {
+    border: none;
+    background-color: #346fed;
+    width: 120%;
+    border-radius: 8px;
+}
+
+.lupa img {
+    width: 25px;
+    margin: 8px;
+}
+.lupa {
+    border: none;
+}
+.calendar img {
+    width: 70px;
+}
+.calendar{
+    border: none;
+}
+
+.formulario {
+    display: flex;
+    padding: 16px;
+}
+
+.formulario input {
+    width: 12%;
+    border-radius: 5px;
+    font-size: 22px;
+    border: none;
+    background-color: rgb(202, 202, 202);
+    padding: 5px;
+}
+
+.avaliacao{
+    font-size: 30px;
+    padding: 8px;
+}
+
+.calendar{
+    font-size: 19px;
+}
+.nomealuno {
+    font-size: 20px;
+    padding: 8px;
+}
+.grafico {
+    width: 25%;
+    padding: 8px;
+}
+
+.navbar-nav a{
+    font-size: 20px;
+}
+.calendario {
+    width: 60px;
+}
+
+.meses button {
+    border: none;
+    background-color: #346fed;
+    width: 60px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+.meses button:hover {
+    background-color: #8fbfec;
+}
+.filtro {
+    border: none;
+    background-color: #5784e4;
+    width: 75px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 9px;
+}
+
+.comentario {
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(202, 202, 202);
+    padding: 8px;
+}
+
+.data {
+    font-size: 30px;
+    background-color: #bdbdbd;
+    width: 45px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+.notas {
+    display: flex;
+}
+
+section {
+    background-image: url(../img/fundo.png);
+    width: 100%;
+    height: 30%;
+}
+
+article {
+    padding: 40px;
+}
+.principall h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.principall p {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.logiin {
+    font-size: 30px;
+    background-color: #8fbfec;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.loogin {
+    text-decoration: none;
+}
+
+.pdi {
+    color: black;
+    font-size: 28px;
+}
+
+
+
+@media (max-width: 768px) {
+    .corpo {
+        font-size: 20px;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .meses {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .meses button {
+        margin-bottom: 10px;
+    }
+
+    .notas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comentario {
+        width: 100%;
+    }
+    
+    .logo {
+        width: 30%;
+    }
+}
+@media (max-width: 768px) {
+    .formulario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario input {
+        width: 80%;
+    }
+
+    .avaliacao, .nomealuno {
+        text-align: center;
+    }
+
+    .relatorios {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .calendar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .grafico {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        position: static;
+    }
+}
+

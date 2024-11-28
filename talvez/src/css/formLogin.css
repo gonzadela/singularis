@@ -1,0 +1,46 @@
+.form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 900px;
+    color: white;
+}
+
+.loggin{
+    position: absolute;
+    margin-top: 100px;
+}
+.formBox1{
+    margin-top: 20px;
+}
+.formLinkExtra{
+    color: white;
+}
+input{
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: none;
+    height: 25px;
+}
+.formLinkExtra{
+    font-size: 16px;
+}
+@media screen and (max-width: 786px) {
+        .form {
+            margin-left: 450px;
+        }
+    }
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
